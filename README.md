@@ -65,4 +65,4 @@ valid_loader = ...  # Create a DataLoader from the SAME VALIDATION SET used to t
 scaled_model = ModelWithTemperature(orig_model)
 scaled_model.set_temperature(valid_loader)
 ```
-# model-calibration
+
