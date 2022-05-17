@@ -40,12 +40,12 @@ We learn this parameter on a validation set, where T is chosen to minimize NLL.
 
 First train a DenseNet on CIFAR100, and save the validation indices:
 ```sh
-python train.py --data <path_to_data> --save <save_folder_dest>
+python src/train.py --data <path_to_data> --save <save_folder_dest>
 ```
 
 Then temperature scale it
 ```sh
-python demo.py --data <path_to_data> --save <save_folder_dest>
+python src/demo.py --data <path_to_data> --save <save_folder_dest>
 ```
 
 
